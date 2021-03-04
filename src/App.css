@@ -1,0 +1,18 @@
+.main-container {
+  min-height     : 100vh;
+  background     : linear-gradient(to right top, #65dfc9, #6cdbeb);
+  display        : flex;
+  align-items    : center;
+  justify-content: center;
+}
+
+
+.glass {
+  width          : 70%;
+  background     : #fff;
+  min-height     : 80vh;
+  background     : linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+  border-radius  : 1rem;
+  z-index        : 2;
+  backdrop-filter: blur(4rem);
+}

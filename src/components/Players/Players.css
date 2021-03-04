@@ -1,0 +1,22 @@
+.players-container {
+    padding-top: 2rem;
+    max-height : 80vh;
+    overflow-y : scroll;
+    overflow-x : hidden;
+
+}
+
+.players-container h2 {
+    color      : #436696;
+    font-weight: 700;
+    font-size  : 1.5srem;
+    opacity    : 0.8;
+}
+
+.loader {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

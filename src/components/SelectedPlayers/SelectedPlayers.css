@@ -1,0 +1,62 @@
+.selected {
+    /* background: red; */
+    padding-top: 1.5rem;
+}
+
+.player {
+    display: flex;
+    background: linear-gradient(to right bottom,
+            rgba(255, 255, 255, 0.7),
+            rgba(255, 255, 255, 0.2));
+    border-radius     : 1rem;
+    margin            : 2rem 0rem;
+    padding           : 2rem;
+    box-shadow        : 6px 6px 20px rgba(122, 122, 122, 0.212);
+    /* justify-content: space-between; */
+    margin-right      : 1rem;
+    height            : 150px;
+
+}
+
+.player-info {
+    margin-left: 2rem;
+}
+
+.player img {
+    height: 100px;
+    width : 100px;
+    border-radius: 1.2rem;
+}
+
+.selected {
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.selected h5 {
+    color      : #436696;
+    font-weight: 400;
+    font-size  : 1.5srem;
+    opacity    : 0.9;
+}
+
+.selected span {
+    color      : #436696;
+    font-weight: 700;
+    font-size  : 1.5srem;
+    opacity    : 0.8;
+}
+
+.player-info .name {
+    color      : #436696;
+    font-weight: 700;
+    font-size  : 1rem;
+    opacity    : 0.8;
+}
+
+.player-info .price {
+    color      : #436696;
+    font-weight: 700;
+    font-size  : 1.2rem;
+    opacity    : 0.8;
+}

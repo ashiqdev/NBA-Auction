@@ -1,0 +1,80 @@
+.card {
+    height       : 300px !important;
+    text-align   : center;
+    margin-bottom: 2rem;
+    margin-right : 1rem !important;
+
+    background   : linear-gradient(to right bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.2)) !important;
+    border-radius: 1.5rem !important;
+    margin       : 2rem 0rem;
+    padding      : 1rem;
+    box-shadow   : 6px 6px 20px rgba(122, 122, 122, 0.2) !important;
+}
+
+
+.card img {
+
+    width        : 130px;
+    height       : 130px;
+    border-radius: 50%;
+    display      : flex;
+    margin       : auto;
+}
+
+.card-fullname {
+    font-size: 1.2rem;
+}
+
+.card-price,
+.card-team {
+    font-size: 1rem;
+}
+
+.card-fullname {
+    color      : #436696;
+    font-weight: 700;
+    font-size  : 1.3rem;
+    opacity    : 0.8;
+}
+
+.card-price {
+    color      : #658ec6;
+    font-weight: 700;
+    opacity    : 0.9;
+    font-size  : 1.1rem;
+}
+
+.card-team {
+    color      : #658ec6;
+    font-weight: 700;
+    opacity    : 0.9;
+    font-style: normal !important;
+}
+
+
+
+.btn-grad {
+    background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA 51%, #77A1D3 100%)
+
+}
+
+.btn-grad {
+    /* margin         : 10px; */
+    padding        : 5px 5px;
+    text-align     : center;
+    text-transform : uppercase;
+    transition     : 0.5s;
+    background-size: 200% auto;
+    color          : white;
+    box-shadow     : 0 0 20px #eee;
+    border-radius  : 10px;
+    display        : block;
+    border: none;
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color              : #fff;
+    text-decoration    : none;
+}
